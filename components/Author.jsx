@@ -7,7 +7,6 @@ const Author = ({ author }) => {
       <div className="absolute left-0 right-0 -top-14">
         <Image
           alt={author.name}
-          unoptimized
           height="100px"
           width="100px"
           className=" align-middle rounded-full"
