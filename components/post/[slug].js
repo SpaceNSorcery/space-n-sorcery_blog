@@ -9,7 +9,8 @@ import {
   Comments,
   CommentsForm,
   Loader
-} from "../../components";
+} from '../../components';
+
 const PostDetails = ({ post }) => {
   const router = useRouter
 
