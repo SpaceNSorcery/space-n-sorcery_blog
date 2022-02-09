@@ -9,6 +9,8 @@ export default function Home({ posts }) {
       <Head>
         <title>SpaceNSorcery Blog</title>
         <link rel="icon" href="JoJo.jpg" />
+        <link rel="stylesheet" type="text/css" href="dist/css/styles.min.css"></link>
+        <script type="text/javascript" src="dist/js/scripts.min.js"></script>
       </Head>
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -19,6 +21,7 @@ export default function Home({ posts }) {
           <div className="lg:sticky relative top-8">
           <PostWidget />
           <Categories />
+        
           </div>
         </div>
       </div>
